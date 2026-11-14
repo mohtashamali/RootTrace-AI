@@ -1,0 +1,11 @@
+services:
+  retrace:
+    build: .
+    env_file: backend/.env
+    environment:
+      APP_BASE_URL: ${APP_BASE_URL:-http://localhost:8000}
+    ports: ["8000:8000"]
+    volumes: ["retrace-data:/data"]
+    restart: unless-stopped
+volumes:
+  retrace-data:

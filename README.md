@@ -1,5 +1,4 @@
-# Retrace
-
+# Retrace-AI
 
 
 When a build or deployment fails, Retrace reads the logs and the diff, forms hypotheses, interviews the people involved while they still remember, checks what they say against the evidence, and drafts a blameless incident report that a human approves.
